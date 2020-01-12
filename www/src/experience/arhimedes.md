@@ -11,6 +11,8 @@ skills:
     { title: "Javascript", image: ../images/skills/JavaScript.png },
     { title: "REST", image: ../images/skills/restful.png },
     { title: "Google Maps", image: ../images/skills/google-maps.png },
+    { title: "Git", image: ../images/skills/git.png },
+    { title: "Fiddler", image: ../images/skills/fiddler.png },
   ]
 images:
   [
