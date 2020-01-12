@@ -10,13 +10,14 @@ skills:
     { title: "CSS 2", image: ../images/skills/css2.png },
     { title: "Javascript", image: ../images/skills/JavaScript.png },
     { title: "REST", image: ../images/skills/restful.png },
+    { title: "Google Maps", image: ../images/skills/google-maps.png },
   ]
 
 images:
   [
     {
       title: "Achievements",
-      description: "At Arhimedes the main challenge was learning the basics of web programming, and developing some small projects around it.",
+      description: "At Arhimedes the main challenge was learning and using the basics of web programming while developing some small projects.",
       layout: "2",
       files:
         [
