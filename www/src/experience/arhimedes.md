@@ -12,7 +12,6 @@ skills:
     { title: "REST", image: ../images/skills/restful.png },
     { title: "Google Maps", image: ../images/skills/google-maps.png },
   ]
-
 images:
   [
     {
