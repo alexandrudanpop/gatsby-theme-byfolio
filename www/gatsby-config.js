@@ -39,8 +39,8 @@ module.exports = {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi!, I'm Alex.`,
-          h2Text: `I'm a Software Engineer who loves working with React & Node , I've
-              been developing software since 2014.`,
+          h2Text: `I'm a Software Engineer who loves working with React, Node & .NET Core. I've
+              been developing software since 2013.`,
           typewriter: [
             // todo
             `Coding is my passion 😎`,
