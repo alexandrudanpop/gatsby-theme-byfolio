@@ -7,7 +7,7 @@ module.exports = {
         path: `src/`,
         imagesPath: `src/images/`,
         siteTitle: `Portfolio`,
-        siteUrl: `https://www.christianibarguen.com`,
+        siteUrl: `http://localhost:5000`,
         siteName: `Alexandru-Dan Pop`,
         siteShortName: `Alex`,
         siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
@@ -43,6 +43,7 @@ module.exports = {
               been developing software since 2013.`,
           typewriter: [
             // todo
+            `This site is WIP...`,
             `Coding is my passion 😎`,
             `I'm a 🍕 lover`,
             `I'm a pretty fast learner and always interested in learning new technologies 🤓`,
