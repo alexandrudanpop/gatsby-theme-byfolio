@@ -6,8 +6,8 @@ jobTitle: "Product Analyst"
 skills:
   [
     { title: "SQL", image: ../images/skills/sql.png },
-    { title: "C#", image: ../images/skills/csharp.png },
     { title: "SQL Server", image: ../images/skills/sql-server.jpg },
+    { title: "C#", image: ../images/skills/csharp.png },
     { title: "Javascript", image: ../images/skills/JavaScript.png },
     { title: "Asp .Net", image: ../images/skills/asp.net.png },
     { title: "HTML 4", image: ../images/skills/html4.png },
