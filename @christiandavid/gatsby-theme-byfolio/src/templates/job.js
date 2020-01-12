@@ -68,7 +68,6 @@ export const query = graphql`
           title
           description
           layout
-          caption
           files {
             image {
               childImageSharp {
