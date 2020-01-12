@@ -53,7 +53,7 @@ export default ({ children }) => {
         </div>
         <div className="copy">
           <a
-            href="https://github.com/christiandavid/gatsby-theme-byfolio"
+            href="https://www.gatsbyjs.org/"
             rel="noopener noreferrer"
             className="nolink"
             target="_blank"

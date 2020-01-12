@@ -47,8 +47,7 @@ export default ({ data }) => {
         title="Tools used"
         style={{ overflow: "hidden", backgroundColor: "#fff" }}
         showLoadingAnimation={false}
-        description="The list of tools used here corresponds to the Languages, Frameworks,
-        Libraries or Apps that I used in each of the roles performed."
+        description="Languages, Frameworks, Libraries or Apps used."
       />
     </>
   )

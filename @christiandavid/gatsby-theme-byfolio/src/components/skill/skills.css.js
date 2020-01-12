@@ -87,6 +87,7 @@ const styles = {
   `,
   gridLayer: css`
     width: 100%;
+    min-height: 500px;
   `,
   gridLayerRight: css`
     transform: perspective(3000px) translateY(-70px) rotateX(55deg)

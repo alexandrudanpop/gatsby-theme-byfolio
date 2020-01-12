@@ -8,10 +8,10 @@ module.exports = {
         imagesPath: `src/images/`,
         siteTitle: `Portfolio`,
         siteUrl: `https://www.christianibarguen.com`,
-        siteName: `Christian David Ibarguen`,
-        siteShortName: `CD`,
-        siteDescription: `This cool App contains information about my work experience as a software developer.`,
-        siteKeywords: `Software developer, Full Stack Developer`,
+        siteName: `Alexandru-Dan Pop`,
+        siteShortName: `Alex`,
+        siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
+        siteKeywords: `Software developer, Full Stack Developer, React Developer, Software engineer, React.Js, .Net Core`,
         useMozJpeg: true,
         menuLinks: [
           // title = Link text
@@ -26,22 +26,23 @@ module.exports = {
           { name: `skills`, title: `Skills`, color: `#d52d43`, link: `` },
           { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `` },
         ],
-        email: `christian@davidibarguen.com`,
+        email: `alexandrudanpop@gmail.com`,
         social: {
           // Usernames
-          twitter: `ichristiandavid`,
-          gitHub: `christiandavid`,
-          stackOverflow: `967956/christian-david`,
-          linkedIn: `in/christianibarguen/`,
-          resumeInPdf: `/CV-19.pdf`, // url or local link
+          twitter: `alexd_pop`,
+          gitHub: `alexandrudanpop`,
+          stackOverflow: `5239664/alexandru-dan-pop`,
+          linkedIn: `in/alexandrudanpop/`,
+          resumeInPdf: `/CV-22.pdf`, // todo - url or local link
         },
         homePage: {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
-          h1Text: `Hi!, I'm Christian David Ibarguen`,
-          h2Text: `I'm a Full Stack Developer who loves working in Backend, I have
-              worked as a software developer since 2006.`,
+          h1Text: `Hi!, I'm Alex.`,
+          h2Text: `I'm a Software Engineer who loves working with React & Node , I've
+              been developing software since 2014.`,
           typewriter: [
+            // todo
             `Coding is my passion 😎`,
             `I'm a 🍕 lover`,
             `I'm a pretty fast learner and always interested in learning new technologies 🤓`,
@@ -53,14 +54,14 @@ module.exports = {
         },
         // Color for menu background
         shapeColor: {
-          link: { color: "#171616", hover: "#fff" },
+          link: { color: "#171616", hover: "#5e5858" },
           shape1: {
             color: `#413f46`,
-            opacity: `0.7`,
+            opacity: `0.8`,
           },
           shape2: {
             color: `#e6e5ea`,
-            opacity: `0.7`,
+            opacity: `0.8`,
           },
           shape3: {
             color: `#fff`,
