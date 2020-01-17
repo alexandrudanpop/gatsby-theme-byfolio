@@ -43,14 +43,16 @@ module.exports = {
               been developing software since 2013.`,
           typewriter: [
             // todo
-            `This site is WIP...`,
-            `Coding is my passion 😎`,
+            `this site is WIP...`,
+            `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>.`,
+            `I can learn new things pretty fast.`,
+            `During my free time, I sometimes go to the 🏋‍`,
+            `I'm always engaged in staying up to date with new technologies 🤓.`,
+            `Always trying to find the simple solutions to complex problems.`,
+            `Communication in every team is key. I like to always stay positive and engaged in any team.`,
+            `No 🐵 coding! I get involved in knowing the business domain on projects I work on.`,
+            `I like taking up new challenges ✅`,
             `I'm a 🍕 lover`,
-            `I'm a pretty fast learner and always interested in learning new technologies 🤓`,
-            `I think one of my values is the <strong>ability to resolve problems<strong>`,
-            `I like to share what I know 👨‍🏫`,
-            `In my non-coding hours, I'm at the 🏋‍`,
-            `I also do design and UX work <span style='color: #27ae60;'>occasionally</span>`,
           ],
         },
         // Color for menu background
