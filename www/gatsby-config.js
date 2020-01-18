@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-theme-byfolio",
   plugins: [
     {
       resolve: `@christiandavid/gatsby-theme-byfolio`,
