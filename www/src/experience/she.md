@@ -10,6 +10,7 @@ skills:
     { title: "Redux", image: ../images/skills/redux.png },
     { title: "Redux Saga", image: ../images/skills/Redux-Saga.png },
     { title: "Typescript", image: ../images/skills/typescript.png },
+    { title: "Sass", image: ../images/skills/sass.png },
     { title: "REST API", image: ../images/skills/restful.png },
     { title: "docker", image: ../images/skills/docker.png },
     { title: "Kubernetes", image: ../images/skills/Kubernetes.png },

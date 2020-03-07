@@ -25,7 +25,7 @@ module.exports = {
             link: ``,
           },
           { name: `skills`, title: `Skills`, color: `#9d316e`, link: `` },
-          { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `` },
+          { name: `aboutMe`, title: `About Me`, color: `#f3ffff`, link: `` },
         ],
         email: `alexandrudanpop@gmail.com`,
         social: {
@@ -58,17 +58,17 @@ module.exports = {
         },
         // Color for menu background
         shapeColor: {
-          link: { color: "#171616", hover: "#4a4545" },
+          link: { color: "#080C1C", hover: "#2a3669" },
           shape1: {
-            color: `#dfe4eb`,
+            color: `#BFD7EA`,
             opacity: `0.7`,
           },
           shape2: {
-            color: `#dfe4eb`,
+            color: `#BFD7EA`,
             opacity: `0.7`,
           },
           shape3: {
-            color: `#dfe4eb`,
+            color: `#BFD7EA`,
             opacity: `0.7`,
           },
         },
