@@ -17,7 +17,7 @@ const styles = {
   `,
   header: css`
     position: relative;
-    margin: 0 auto;
+    margin: 0 0 50px 0;
     max-width: 1200px;
     padding: 0.3rem 6em 0;
     h1 {
@@ -77,7 +77,6 @@ const styles = {
       top: -1em;
       left: -0.15em;
       opacity: 0.3;
-      content: attr(data-year);
     }
     ${media52Dot5em} {
       width: 33.33%;
