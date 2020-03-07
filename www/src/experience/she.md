@@ -8,7 +8,12 @@ skills:
     { title: "JavaScript", image: ../images/skills/JavaScript.png },
     { title: "React", image: ../images/skills/react.png },
     { title: "Redux", image: ../images/skills/redux.png },
+    { title: "Redux Saga", image: ../images/skills/Redux-Saga.png },
     { title: "REST API", image: ../images/skills/restful.png },
+    { title: "docker", image: ../images/skills/docker.png },
+    { title: "Kubernetes", image: ../images/skills/Kubernetes.png },
+    { title: "Identity Server 4", image: ../images/skills/idsrv.jpg },
+    { title: "NGINX", image: ../images/skills/nginx.png },
   ]
 images:
   [

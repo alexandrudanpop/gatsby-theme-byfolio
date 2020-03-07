@@ -11,10 +11,16 @@ skills:
     { title: "JavaScript", image: ../images/skills/JavaScript.png },
     { title: "React", image: ../images/skills/react.png },
     { title: "Redux", image: ../images/skills/redux.png },
+    { title: "Redux Thunk", image: ../images/skills/redux-thunk.png },
     { title: "RabbitMQ", image: ../images/skills/rabbitmq.png },
     { title: "REST API", image: ../images/skills/restful.png },
-    { title: "SQL", image: ../images/skills/sql.png },
+    { title: "mongoDB", image: ../images/skills/mongodb.png },
     { title: "Teamcity", image: ../images/skills/teamcity.png },
+    { title: "Google Analytics", image: ../images/skills/google-analytics.png },
+    { title: "Entity Framework", image: ../images/skills/ef.jpeg },
+    { title: "SQL Server", image: ../images/skills/sql-server.jpg },
+    { title: "SQL", image: ../images/skills/sql.png },
+    { title: "Windows Services", image: ../images/skills/w-serv.png },
   ]
 images:
   [
@@ -47,7 +53,6 @@ images:
       files:
         [
           { image: ../images/companies/common/codescreen3.jpg },
-
           { image: ../images/companies/common/codescreen2.jpg },
           { image: ../images/companies/coera/analytics.PNG },
         ],
