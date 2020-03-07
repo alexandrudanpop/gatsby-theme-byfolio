@@ -18,8 +18,8 @@ images:
       layout: "1",
       files:
         [
-          { image: ../images/companies/common/codescreen4.jpg },
-          { image: ../images/companies/common/codescreen1.jpg },
+          { image: ../images/companies/she/graph-data.png },
+          { image: ../images/companies/she/diagrams.jpg },
           { image: ../images/companies/common/codescreen2.jpg },
         ],
     },
