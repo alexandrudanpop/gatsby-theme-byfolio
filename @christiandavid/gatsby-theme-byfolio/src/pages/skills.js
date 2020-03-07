@@ -43,8 +43,7 @@ export default ({ data, transitionStatus }) => {
         type="scrollable"
         title="Skills"
         description="These are the skills that I have acquired through my years of
-            experience working as a software developer, the order is based on
-            the ones I like most and or I have used."
+            experience working as a software engineer."
         transitionStatus={transitionStatus}
       />
     </Layout>

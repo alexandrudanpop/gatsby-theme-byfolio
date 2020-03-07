@@ -17,14 +17,14 @@ module.exports = {
         menuLinks: [
           // title = Link text
           // color = Animation background color on click
-          { name: `home`, title: `Home`, color: `#000`, link: `` },
+          { name: `home`, title: `Home`, color: `#080c1c`, link: `` },
           {
             name: `experience`,
             title: `Experience`,
-            color: `#3a3d98`,
+            color: `#080c1c`,
             link: ``,
           },
-          { name: `skills`, title: `Skills`, color: `#d52d43`, link: `` },
+          { name: `skills`, title: `Skills`, color: `#9d316e`, link: `` },
           { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `` },
         ],
         email: `alexandrudanpop@gmail.com`,
@@ -58,17 +58,17 @@ module.exports = {
         },
         // Color for menu background
         shapeColor: {
-          link: { color: "#171616", hover: "#5e5858" },
+          link: { color: "#171616", hover: "#4a4545" },
           shape1: {
-            color: `#413f46`,
-            opacity: `0.8`,
+            color: `#dfe4eb`,
+            opacity: `0.7`,
           },
           shape2: {
-            color: `#e6e5ea`,
-            opacity: `0.8`,
+            color: `#dfe4eb`,
+            opacity: `0.7`,
           },
           shape3: {
-            color: `#fff`,
+            color: `#dfe4eb`,
             opacity: `0.7`,
           },
         },

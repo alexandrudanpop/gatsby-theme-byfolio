@@ -21,8 +21,8 @@ const styles = css`
     background-color: #000;
   }
   .home.layout-wrapper .layout-inner {
-    background: #0e0f11;
-    background: #0e0f11 url(${lineSvg}) center center fixed;
+    background: #080c1c;
+    background: #080c1c url(${lineSvg}) center center fixed;
     background-size: contain;
   }
   .home.layout-wrapper h1,
@@ -31,15 +31,15 @@ const styles = css`
   }
   .skill.layout-wrapper .layout-inner {
     color: #fff;
-    background: #9d316e;
+    background: #173493;
     background: url(${lineSvg}) center center fixed,
-      linear-gradient(45deg, #9d316e, #de2d3e);
+      linear-gradient(#9d316e, #bfd7ea);
     background-size: cover;
   }
   .experience.layout-wrapper .layout-inner {
-    background: #3a3d98;
+    background: #080c1c;
     background: url(${lineSvg}) center center fixed,
-      linear-gradient(45deg, #6f22b9, #3a3d98);
+      linear-gradient(45deg, #95a2cd, #080c1c);
     background-size: cover;
   }
   .home .hamburgercolr::before,
@@ -57,6 +57,9 @@ const styles = css`
   .aboutme .btn-contact-color,
   .e404 .btn-contact-color {
     color: #000;
+  }
+  .aboutme.layout-wrapper .layout-inner {
+    background: #f3ffff;
   }
 `
 
