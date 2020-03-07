@@ -14,28 +14,31 @@ skills:
     { title: "Teamcity", image: ../images/skills/teamcity.png },
     { title: "Linux", image: ../images/skills/linux.png },
   ]
-images: [{
-  title: "Lots of coding",
-  description: "estimate > code > deliver new features > repeat.",
-  layout: "4",
-  files:
-    [
-      { image: ../images/companies/common/codescreen3.jpg },
-      { image: ../images/companies/common/codescreen1.jpg },
-      { image: ../images/companies/fortech2.jpg },
-    ],
-},
-{
-  title: "Big codebase, though challenges",
-  description: "complex development environment, dealing with legacy code",
-  layout: "1",
-  files:
-    [
-      { image: ../images/companies/fortech/automative1.jpg },
-      { image: ../images/companies/fortech/automative2.jpg },
-      { image: ../images/companies/fortech/automative3.jpg },
-    ],
-},]
+images:
+  [
+    {
+      title: "Big codebase, though challenges",
+      description: "complex development environment, dealing with legacy code",
+      layout: "1",
+      files:
+        [
+          { image: ../images/companies/fortech/automative1.jpg },
+          { image: ../images/companies/fortech/automative2.jpg },
+          { image: ../images/companies/fortech/automative3.jpg },
+        ],
+    },
+    {
+      title: "Lots of coding",
+      description: "estimate > code > deliver new features > repeat.",
+      layout: "4",
+      files:
+        [
+          { image: ../images/companies/common/codescreen3.jpg },
+          { image: ../images/companies/common/codescreen1.jpg },
+          { image: ../images/companies/fortech2.jpg },
+        ],
+    },
+  ]
 
 dateFrom: "2015-02-01"
 dateTo: "2016-03-01"
