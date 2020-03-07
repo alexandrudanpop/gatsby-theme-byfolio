@@ -7,7 +7,7 @@ module.exports = {
         basePath: ``,
         path: `src/`,
         imagesPath: `src/images/`,
-        siteTitle: `Portfolio`,
+        siteTitle: `Alex's Portfolio`,
         siteUrl: `http://localhost:5000`,
         siteName: `Alexandru-Dan Pop`,
         siteShortName: `Alex`,
@@ -79,7 +79,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          `UA-151335375-1`, // Google Analytics / GA
+          `UA-123`, // Google Analytics / GA
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
@@ -87,7 +87,7 @@ module.exports = {
           anonymize_ip: true,
           cookie_expires: 0,
           send_page_view: true,
-          cookie_name: `christianibarguen.com`,
+          cookie_name: `google-gtag`,
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
