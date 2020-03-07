@@ -39,7 +39,7 @@ const typography = new Typography({
   ],
   overrideStyles: () => ({
     a: {
-      fontFamily: `"Source Sans Pro", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif`,
+      fontFamily: `"Futura PT", "Source Sans Pro", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif`,
     },
   }),
 })
