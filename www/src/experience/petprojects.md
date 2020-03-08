@@ -2,7 +2,7 @@
 title: ""
 company: "Myself"
 logo: ../images/companies/common/codescreen2.jpg
-jobTitle: "hacking on some small apps in my free time"
+jobTitle: "Hacking on some small apps in my free time"
 skills:
   [
     { title: "JavaScript", image: ../images/skills/JavaScript.png },
@@ -17,7 +17,7 @@ images:
   [
     {
       title: "Multiple VM connector",
-      description: "Created a windows app that can connect to multiple virtual machines - have each in one tab.",
+      description: "Created a windows app that can connect to multiple virtual machines, in a tab view",
       layout: "1",
       files:
         [
@@ -28,7 +28,7 @@ images:
     },
     {
       title: "Lyrics finder",
-      description: "Find lyrics for your favorite songs.",
+      description: "Find lyrics for your favorite songs",
       layout: "1",
       files:
         [
@@ -49,7 +49,7 @@ images:
         ],
     },
     {
-      title: "Polemons GraphQL App",
+      title: "Pokemons GraphQL App",
       description: "I built this using an open GraphQL API",
       layout: "5",
       files:
@@ -66,7 +66,7 @@ dateTo: "2020"
 ---
 
 - Created multiple small projects to explore new ideas and technologies
-- Created an application able to connect to multiple VMs having a tab view - to easily switch between tabs on connected machines
+- Created an application able to connect to multiple VMs. Having a tab view to easily switch between tabs on connected machines
 - Lyrics Finder - simple responsive web app to find lyrics for your favorite songs
-- Blogifier React - a ReactJs theme for the blogifier application
+- Blogifier React - a theme for a blogifier application built with ReactJs
 - Pokemons GraphQL app - a simple app using a GraphQL API
