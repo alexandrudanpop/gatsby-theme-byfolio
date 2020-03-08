@@ -1,6 +1,6 @@
 ---
 title: ""
-company: "other small apps"
+company: "other small apps I built"
 logo: ../images/companies/common/codescreen2.jpg
 jobTitle: "Various"
 skills:
@@ -51,12 +51,12 @@ images:
     {
       title: "Polemons GraphQL App",
       description: "I built this using an open GraphQL API",
-      layout: "2",
+      layout: "5",
       files:
         [
-          { image: ../images/companies/me/pokemons1.PNG },
           { image: ../images/companies/me/pokemons2.PNG },
           { image: ../images/companies/me/pokemons3.PNG },
+          { image: ../images/companies/me/pokemons1.PNG },
         ],
     },
   ]
