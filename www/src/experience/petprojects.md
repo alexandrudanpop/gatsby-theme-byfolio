@@ -1,37 +1,40 @@
 ---
 title: ""
-company: "Me"
+company: "other small apps"
 logo: ../images/companies/common/codescreen2.jpg
-jobTitle: "developer"
+jobTitle: "Various"
 skills:
   [
     { title: "JavaScript", image: ../images/skills/JavaScript.png },
     { title: "React", image: ../images/skills/react.png },
     { title: "Redux", image: ../images/skills/redux.png },
-    { title: "Redux Saga", image: ../images/skills/Redux-Saga.png },
-    { title: "Typescript", image: ../images/skills/typescript.png },
-    { title: "Sass", image: ../images/skills/sass.png },
     { title: "REST API", image: ../images/skills/restful.png },
-    { title: "docker", image: ../images/skills/docker.png },
-    { title: "Kubernetes", image: ../images/skills/Kubernetes.png },
-    { title: "Identity Server 4", image: ../images/skills/idsrv.jpg },
     { title: "NGINX", image: ../images/skills/nginx.png },
-    { title: "Neo4j", image: ../images/skills/neo4j.png },
-    { title: "React Testing Library", image: ../images/skills/rtl.jpeg },
-    { title: "Azure DevOps", image: ../images/skills/azure-devops-2.png },
-    { title: "ASP.Net Core", image: ../images/skills/asp-net-core.png },
+    { title: "C#", image: ../images/skills/csharp.png },
+    { title: ".NET Core", image: ../images/skills/dotnet-core.png },
   ]
 images:
   [
     {
-      title: "MDM platform",
-      description: "Created together with a distributed team a master data management platform",
+      title: "Multiple VM connector",
+      description: "Created a windows app that can connect to multiple virtual machines - have each in one tab. [see here](https://github.com/alexandrudanpop/ConnectToMultipleVMs)",
       layout: "1",
       files:
         [
-          { image: ../images/companies/she/graph-data.png },
-          { image: ../images/companies/she/diagrams.jpg },
-          { image: ../images/companies/common/codescreen2.jpg },
+          { image: ../images/companies/me/vms.png },
+          { image: ../images/companies/me/terminal.jpg },
+          { image: ../images/companies/common/codescreen4.jpg },
+        ],
+    },
+    {
+      title: "Lyrics finder",
+      description: "Find lyrics for your favorite songs. [see here](https://alexandrudanpop.github.io/LyricFinder/)",
+      layout: "1",
+      files:
+        [
+          { image: ../images/companies/me/lyricfinder1.PNG },
+          { image: ../images/companies/me/lyricfinder2.PNG },
+          { image: ../images/companies/me/lyricfinder3.PNG },
         ],
     },
   ]
@@ -40,4 +43,6 @@ dateFrom: "2015-01-01"
 dateTo: "2020"
 ---
 
-- Created an enterprise React Redux application with multi-language, authorization & authentication, workflow diagrams, charts, data visualizations, administration & configuration
+- Created multiple small projects to explore new ideas and technologies
+- Created an application able to connect to multiple VMs having a tab view - to easily switch between tabs on connected machines
+- Lyrics Finder - simple responsive web app to find lyrics for your favorite songs
