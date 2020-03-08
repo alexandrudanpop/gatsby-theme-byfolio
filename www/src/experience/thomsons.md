@@ -17,7 +17,7 @@ images:
   [
     {
       title: "Achievements",
-      description: "Working in a big distributed team, dealing with issues from customers, consultants, developers. Diagnosys of complex issues in the live system, using SQL to determine issues and fix corrupted data or configs.",
+      description: "Working in a big distributed team, dealing with tickets from customers, consultants, developers. Diagnosys of problems in the live system, using SQL to determine errors and fix corrupted data or configs",
       layout: "2",
       files:
         [
@@ -28,7 +28,7 @@ images:
     },
     {
       title: "Provide support on the live system.",
-      description: "This was a great challenge to understand issues in a live complex system and fix them as fast as possible. I used automation to fix recurring problems.",
+      description: "This was a great challenge to understand issues in a live complex system and fix them as fast as possible. I used automation scripts to fix recurring problems",
       layout: "4",
       files:
         [
