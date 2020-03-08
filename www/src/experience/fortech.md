@@ -29,7 +29,7 @@ images:
     },
     {
       title: "Lots of coding",
-      description: "estimate > code > deliver new features > repeat.",
+      description: "estimate > code > deliver new features > repeat",
       layout: "4",
       files:
         [
@@ -44,8 +44,8 @@ dateFrom: "2015-02-01"
 dateTo: "2016-03-01"
 ---
 
-- Full Stack Desktop applications development using C# & .NET for market leader automotive company.
-- Managing both legacy code and creating new application modules.
-- Integrating the client application with Web Services.
-- Oracle DML / DDL / PL-SQL - extending the existing database, managing multiple environments, performing CRUD operations using ADO .NET.
+- Full Stack Desktop applications development using C# & .NET for market leader automotive company
+- Managing both legacy code and creating new application modules
+- Integrating the client application with Web Services
+- Oracle DML / DDL / PL-SQL - extending the existing database, managing multiple environments, performing CRUD operations using ADO .NET
 - Performing and integrating high speed SQL transactions using Linux server programmed in C

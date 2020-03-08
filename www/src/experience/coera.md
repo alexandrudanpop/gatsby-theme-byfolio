@@ -26,7 +26,7 @@ images:
   [
     {
       title: "Worked on a new wokflow engine, person storage, message broker",
-      description: "The insurance product we have worked on is being refactored in a microservice architecture",
+      description: "The insurance product we have worked on was being refactored in a microservice architecture",
       layout: "1",
       files:
         [
@@ -37,7 +37,7 @@ images:
     },
     {
       title: "Created an aggregator service",
-      description: "Web service supporting thousands of requests providing insurance quote calculations",
+      description: "Web service supporting thousands of requests, providing insurance quote calculations",
       layout: "4",
       files:
         [
@@ -48,7 +48,7 @@ images:
     },
     {
       title: "Analytics platform",
-      description: "Created this beautifull application together with a small team",
+      description: "Created a beautifull application together with a small team",
       layout: "2",
       files:
         [
