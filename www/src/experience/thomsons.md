@@ -17,7 +17,7 @@ images:
   [
     {
       title: "Achievements",
-      description: "Working in a big distributed team, dealing with tickets from customers, consultants, developers. Diagnosys of problems in the live system, using SQL to determine errors and fix corrupted data or configs",
+      description: "Working in a big distributed team. Did diagnosys of problems in the live system, also SQL to determine errors and fix corrupted data or configs",
       layout: "2",
       files:
         [
@@ -27,7 +27,7 @@ images:
         ],
     },
     {
-      title: "Provide support on the live system.",
+      title: "Provide support on the live system",
       description: "This was a great challenge to understand issues in a live complex system and fix them as fast as possible. I used automation scripts to fix recurring problems",
       layout: "4",
       files:
@@ -42,6 +42,6 @@ dateFrom: "2014-03-01"
 dateTo: "2015-02-01"
 ---
 
-- Working a lot with SQL and MS SQL Server in a live environment
-- Created some automation tools to fix some recurring problems
+- Working a lot with SQL and MS SQL Server
+- Created some automation tools in C# to fix some recurring problems
 - Diagnostics, root cause analysis and investigation of issues

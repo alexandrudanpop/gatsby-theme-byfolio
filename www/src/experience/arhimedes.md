@@ -18,7 +18,7 @@ images:
   [
     {
       title: "Achievements",
-      description: "At Arhimedes the main challenge was learning and using the basics of web programming while developing some small projects.",
+      description: "Learning and using the basics of web programming while developing some small projects",
       layout: "2",
       files:
         [
@@ -45,4 +45,4 @@ dateTo: "2013-09-01"
 
 - Basics of Webdesing programming : HTML, CSS, Javascript, SQL, XML, REST API
 - Developing a web app using modern web technologies (JSON, AngularJS, Google API)
-- Diagnostics of site performance using and inspecting file transfer using Fidler 2.0
+- Diagnostics of site performance and inspecting HTTP traffic using Fidler 2.0
