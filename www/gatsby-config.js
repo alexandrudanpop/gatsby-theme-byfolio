@@ -39,21 +39,19 @@ module.exports = {
         homePage: {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
-          h1Text: `Hi!, I'm Alex.`,
-          h2Text: `I'm a Software Engineer who loves working with React, Node & .NET Core. I've
-              been developing software since 2013.`,
+          h1Text: `Hi! I'm Alex.`,
+          h2Text: `I'm a Software Engineer who loves working with Javascript, React and NodeJs. I also enjoy programming C# with .NET Core. 
+          I work as a freelancer / consultant developing applications that solve complex business problems in various industries.`,
           typewriter: [
-            // todo
-            `this site is WIP...`,
             `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>.`,
-            `I can learn new things pretty fast.`,
-            `During my free time, I sometimes go to the 🏋‍`,
-            `I'm always engaged in staying up to date with new technologies 🤓.`,
-            `Always trying to find the simple solutions to complex problems.`,
-            `Communication in every team is key. I like to always stay positive and engaged in any team.`,
+            `During my free time, I enjoy working out 🏋 & listening to music 🎧`,
+            `I learn new things pretty fast, and able to fill the gaps when not all the aspects of a problem are presented.`,
             `No 🐵 coding! I get involved in knowing the business domain on projects I work on.`,
+            `Curious type - I spend a lot of my time staying up to date with various technologies, new & old 🤓.`,
+            `Trying to find the simple solutions to your business complex problems.`,
+            `Communication in every team is key. I like to always stay positive and engaged in any team.`,
             `I like taking up new challenges ✅`,
-            `I'm a 🍕 lover`,
+            `I'm a 🍕 & 🍺 lover`,
           ],
         },
         // Color for menu background
