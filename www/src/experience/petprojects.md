@@ -17,7 +17,7 @@ images:
   [
     {
       title: "Multiple VM connector",
-      description: "Created a windows app that can connect to multiple virtual machines - have each in one tab. [see here](https://github.com/alexandrudanpop/ConnectToMultipleVMs)",
+      description: "Created a windows app that can connect to multiple virtual machines - have each in one tab.",
       layout: "1",
       files:
         [
@@ -28,13 +28,35 @@ images:
     },
     {
       title: "Lyrics finder",
-      description: "Find lyrics for your favorite songs. [see here](https://alexandrudanpop.github.io/LyricFinder/)",
+      description: "Find lyrics for your favorite songs.",
       layout: "1",
       files:
         [
           { image: ../images/companies/me/lyricfinder1.PNG },
           { image: ../images/companies/me/lyricfinder2.PNG },
           { image: ../images/companies/me/lyricfinder3.PNG },
+        ],
+    },
+    {
+      title: "Blogifier React",
+      description: "ReactJs responsive blogifier theme",
+      layout: "2",
+      files:
+        [
+          { image: ../images/companies/me/blogifier-react.PNG },
+          { image: ../images/companies/me/blogifier-react1.PNG },
+          { image: ../images/companies/me/blogifier-react2.PNG },
+        ],
+    },
+    {
+      title: "Polemons GraphQL App",
+      description: "I built this using an open GraphQL API",
+      layout: "2",
+      files:
+        [
+          { image: ../images/companies/me/pokemons1.PNG },
+          { image: ../images/companies/me/pokemons2.PNG },
+          { image: ../images/companies/me/pokemons3.PNG },
         ],
     },
   ]
@@ -46,3 +68,5 @@ dateTo: "2020"
 - Created multiple small projects to explore new ideas and technologies
 - Created an application able to connect to multiple VMs having a tab view - to easily switch between tabs on connected machines
 - Lyrics Finder - simple responsive web app to find lyrics for your favorite songs
+- Blogifier React - a ReactJs theme for the blogifier application
+- Pokemons GraphQL app - a simple app using a GraphQL API
