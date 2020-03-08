@@ -50,7 +50,7 @@ images:
   ]
 
 dateFrom: "2018-05-01"
-dateTo: "2020"
+dateTo: "2020-05-01"
 ---
 
 - Created an enterprise React Redux application with multi-language, authorization & authentication, workflow diagrams, charts, data visualizations, administration & configuration
