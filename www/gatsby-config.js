@@ -35,7 +35,7 @@ module.exports = {
           gitHub: `alexandrudanpop`,
           stackOverflow: `5239664/alexandru-dan-pop`,
           linkedIn: `in/alexandrudanpop/`,
-          resumeInPdf: `/CV-22.pdf`, // todo - url or local link
+          resumeInPdf: `/CV - Alexandru-Dan Pop.pdf`,
         },
         homePage: {
           availableToHire: true,

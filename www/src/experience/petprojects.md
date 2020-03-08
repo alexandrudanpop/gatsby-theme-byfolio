@@ -1,8 +1,8 @@
 ---
 title: ""
-company: "other small apps I built"
+company: "Myself"
 logo: ../images/companies/common/codescreen2.jpg
-jobTitle: "Various"
+jobTitle: "hacking on some small apps in my free time"
 skills:
   [
     { title: "JavaScript", image: ../images/skills/JavaScript.png },

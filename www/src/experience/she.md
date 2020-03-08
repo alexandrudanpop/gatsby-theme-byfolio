@@ -17,6 +17,7 @@ skills:
     { title: "Identity Server 4", image: ../images/skills/idsrv.jpg },
     { title: "NGINX", image: ../images/skills/nginx.png },
     { title: "Neo4j", image: ../images/skills/neo4j.png },
+    { title: "mongoDB", image: ../images/skills/mongodb.png },
     { title: "React Testing Library", image: ../images/skills/rtl.jpeg },
     { title: "Azure DevOps", image: ../images/skills/azure-devops-2.png },
     { title: "ASP.Net Core", image: ../images/skills/asp-net-core.png },

@@ -1,10 +1,14 @@
 [
   {
     "subtitle": "About Me!",
-    "content": "I'm a <strong>Full Stack Software Engineer</strong>, I finished my studies on <strong>Engineering</strong> at the <strong>Technical University of Cluj-Napoca</strong>. During my career I worked with a wide variety of technologies - both frontend and backend. I was constantly interested in learning more things. Also staying up to date with the latest technologies & trends. I'm always keeping an eye on <strong>open source</strong>. I think I add value to projects through my ability to resolve complex tasks while having the business side of things in mind - trying to solve real-world problems."
+    "content": "I'm a <strong>Full Stack Software Engineer</strong>, I finished my studies on <strong>Engineering</strong> at the <strong>Technical University of Cluj-Napoca</strong>. During my career I worked with a wide variety of technologies - both frontend and backend. I spend a lot of time staying up to date with the latest technologies & trends while also keeping an eye on <strong>open source</strong>. I think I add value to projects through my ability to resolve complex tasks while having the business side of things in mind."
   },
   {
-    "subtitle": "Experience!",
-    "content": "I started developing software from <strong>2013</strong>. Since then I worked for several companies, ... todo ..."
+    "subtitle": "Experience",
+    "content": "I started developing software in <strong>2013</strong>. Since then I worked with several companies on applications in different industries like benefits management, automotive, insurance, data management & data analytics. My main areas of expertise are <b>Javascript, ReactJs, NodeJs, .Net Core and C#</b>"
+  },
+  {
+    "subtitle": "Hire me",
+    "content": "Since 2019 I've been self-employed working as a frelancer / consultant. Here's what I can do for you: <ul> <li> <b>Software development </b> - as I love writing code, I would like to do it for you. I can help on big or small projects or start things from 0. I am used to working with teams both on site or distributed around the globe. </li> <li> <b> Frontend Architecture & Setup </b> - as it's one of my favorite things, I can help you set up frotend applications and do it right - using the best tools available & latest best practices.   </li>   <li> <b> Technical consultance </b> - I can help with a range of topics from software architecture to UI&UX, code quality, reviews, automated testing and CI/CD.  </li> </ul>"
   }
 ]
