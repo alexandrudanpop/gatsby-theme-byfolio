@@ -2,7 +2,7 @@
 title: ""
 company: "Fortech"
 logo: ../images/companies/fortech.jpg
-jobTitle: "Full Stack Software Engineer"
+jobTitle: "Software Engineer"
 skills:
   [
     { title: "C#", image: ../images/skills/csharp.png },
