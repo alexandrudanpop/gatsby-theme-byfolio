@@ -36,7 +36,7 @@ images:
         ],
     },
     {
-      title: "Fronted responsible",
+      title: "Frontend responsible",
       description: "Design and architecture of the React-Redux-Typescript enterprise application.",
       layout: "4",
       files:
