@@ -14,6 +14,7 @@ module.exports = {
         siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
         siteKeywords: `Software developer, Full Stack Developer, React Developer, Software engineer, React.Js, .Net Core`,
         useMozJpeg: true,
+        typographyPath: "src/utils/typography.js",
         menuLinks: [
           // title = Link text
           // color = Animation background color on click

@@ -4,7 +4,7 @@ const typography = new Typography({
   baseFontSize: "16px",
   googleFonts: [
     {
-      name: "Futura PT",
+      name: "Lato",
       styles: ["400", "700"],
     },
     {
@@ -16,15 +16,9 @@ const typography = new Typography({
       styles: ["400", "700&display=swap"],
     },
   ],
-  headerFontFamily: [
-    "Futura PT",
-    "Roboto",
-    "Helvetica Neue",
-    "Helvetica",
-    "Arial",
-  ],
+  headerFontFamily: ["Lato", "Roboto", "Helvetica Neue", "Helvetica", "Arial"],
   bodyFontFamily: [
-    "Futura PT",
+    "Lato",
     "BlinkMacSystemFont",
     "Segoe UI",
     "Roboto",
@@ -39,7 +33,7 @@ const typography = new Typography({
   ],
   overrideStyles: () => ({
     a: {
-      fontFamily: `"Futura PT", "Source Sans Pro", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif`,
+      fontFamily: `"Lato", "Source Sans Pro", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif`,
     },
   }),
 })
