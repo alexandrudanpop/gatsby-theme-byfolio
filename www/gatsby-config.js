@@ -8,7 +8,7 @@ module.exports = {
         path: `src/`,
         imagesPath: `src/images/`,
         siteTitle: `Alex's Portfolio`,
-        siteUrl: `http://localhost:5000`,
+        siteUrl: `https://alexandrudanpop.github.io/gatsby-theme-byfolio`,
         siteName: `Alexandru-Dan Pop`,
         siteShortName: `Alex`,
         siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
@@ -35,14 +35,14 @@ module.exports = {
           gitHub: `alexandrudanpop`,
           stackOverflow: `5239664/alexandru-dan-pop`,
           linkedIn: `in/alexandrudanpop/`,
-          resumeInPdf: `/CV-Alexandru-DanPop.pdf`,
+          resumeInPdf: `/gatsby-theme-byfolio//CV-Alexandru-DanPop.pdf`,
         },
         homePage: {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi! I'm Alex.`,
           h2Text: `I'm a Software Engineer who loves working with Javascript, React and NodeJs. I also enjoy programming C# with .NET Core. 
-          I work as a freelancer / consultant, developing applications that solve complex business problems in various industries.`,
+          I work as a freelancer / consultant, developing applications that solve business problems in various industries.`,
           typewriter: [
             `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>`,
             `During my free time, I enjoy working out 🏋 & listening to music 🎧`,

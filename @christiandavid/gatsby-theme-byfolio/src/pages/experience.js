@@ -15,7 +15,7 @@ export default ({ data, transitionStatus }) => {
         transitionStatus={transitionStatus}
         title="Work Experience"
         description="Here you can find information about my work experience, these are some
-      companies with which I have had the privilege of working."
+      companies with which I have had the privilege of working"
       />
     </LayoutContactMe>
   )

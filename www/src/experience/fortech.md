@@ -18,7 +18,7 @@ images:
   [
     {
       title: "Big codebase, though challenges",
-      description: "complex development environment, dealing with legacy code",
+      description: "Complex development environment, dealing with legacy code",
       layout: "1",
       files:
         [

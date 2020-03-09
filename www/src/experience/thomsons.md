@@ -28,7 +28,7 @@ images:
     },
     {
       title: "Provide support on the live system",
-      description: "This was a great challenge to understand issues in a live complex system and fix them as fast as possible. I used automation scripts to fix recurring problems",
+      description: "This was a great challenge to understand issues in a live system and fix them as fast as possible. I used automation scripts to fix recurring problems",
       layout: "4",
       files:
         [
