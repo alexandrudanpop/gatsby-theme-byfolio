@@ -31,7 +31,7 @@ module.exports = {
         email: `alexandrudanpop@gmail.com`,
         social: {
           // Usernames
-          twitter: `alexd_pop`,
+          twitter: `alexandrudanpop`,
           gitHub: `alexandrudanpop`,
           stackOverflow: `5239664/alexandru-dan-pop`,
           linkedIn: `in/alexandrudanpop/`,

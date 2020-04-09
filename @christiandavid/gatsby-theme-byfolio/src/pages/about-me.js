@@ -14,15 +14,24 @@ export default () => {
         <div css={styles.aboutContainer}>
           <div css={styles.aboutContent}>
             <span css={styles.aboutShadow}>About me</span>
-            {aboutMe.map(({ subtitle, content }) => (
-              <Fragment key={subtitle}>
-                <h2
-                  css={styles.hTag}
-                  dangerouslySetInnerHTML={{ __html: subtitle }}
-                ></h2>
-                <p dangerouslySetInnerHTML={{ __html: content }}></p>
-              </Fragment>
-            ))}
+            <>
+              {aboutMe.map(({ subtitle, content }) => (
+                <Fragment key={subtitle}>
+                  <h2
+                    css={styles.hTag}
+                    dangerouslySetInnerHTML={{ __html: subtitle }}
+                  ></h2>
+                  <p dangerouslySetInnerHTML={{ __html: content }}></p>
+                </Fragment>
+              ))}
+              <h2 css={styles.hTag}> Blog </h2>
+              <p>
+                I am writing on Dev.to check it out{" "}
+                <a href="https://dev.to/alexandrudanpop" target="_blank">
+                  here.
+                </a>
+              </p>
+            </>
           </div>
         </div>
       </section>
