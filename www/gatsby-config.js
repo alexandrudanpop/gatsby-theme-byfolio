@@ -36,6 +36,7 @@ module.exports = {
           stackOverflow: `5239664/alexandru-dan-pop`,
           linkedIn: `in/alexandrudanpop/`,
           resumeInPdf: `/gatsby-theme-byfolio//CV-Alexandru-DanPop.pdf`,
+          devTo: `alexandrudanpop`,
         },
         homePage: {
           availableToHire: true,
