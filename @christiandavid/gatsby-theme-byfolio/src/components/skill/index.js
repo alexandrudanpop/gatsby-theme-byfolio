@@ -87,7 +87,7 @@ const Skill = ({
       {/* It appears that AniLink causes the page to render many times */}
       {/* {transitionStatus === "exited" ? ( */}
       <Delay
-        wait={1000}
+        wait={500}
         cb={handleLoad}
         showLoadingAnimation={showLoadingAnimation}
       >
