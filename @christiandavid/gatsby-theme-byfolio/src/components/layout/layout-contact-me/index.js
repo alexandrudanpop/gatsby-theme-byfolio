@@ -133,7 +133,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
             <div className="contactme-info">
               <p>Get in touch with me on</p>
               <p>
-                {Object.entries(social).map(([key, value]) => {
+                {Object.entries(social).map(([key, value], i) => {
                   const links = {
                     gitHub: "https://github.com/",
                     twitter: "https://twitter.com/",
@@ -153,7 +153,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
 
                   return (
                     <a
-                      key={value}
+                      key={`${value}${i}`}
                       target="_blank"
                       href={`${links[key] || ""}${value}`}
                       css={styles.whiteLink}
