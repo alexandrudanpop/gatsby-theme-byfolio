@@ -41,16 +41,9 @@ const styles = {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-flow: column wrap;
-    align-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
     min-height: 100vh;
-    &::before,
-    &::after {
-      content: "";
-      flex-basis: 100%;
-      width: 0;
-      order: 2;
-    }
     ${media36em} {
       &::before,
       &::after {
@@ -64,12 +57,6 @@ const styles = {
     margin: 0 0 2em;
     padding: 1em 4em 0;
     position: relative;
-    &:nth-of-type(2n + 1) {
-      order: 1;
-    }
-    &:nth-of-type(2n) {
-      order: 2;
-    }
     &::before {
       font-family: sans-serif;
       font-size: 10em;
@@ -81,25 +68,10 @@ const styles = {
     ${media52Dot5em} {
       width: 33.33%;
       margin: 0 0 9em;
-      &:first-of-type {
-        margin-top: 5em;
-      }
-      &:nth-of-type(2) {
-        margin-top: 14em;
-      }
-      &:nth-of-type(3n + 1) {
-        order: 1;
-      }
-      &:nth-of-type(3n + 2) {
-        order: 2;
-      }
-      &:nth-of-type(3n) {
-        order: 3;
-      }
     }
     ${media36em} {
       width: 100%;
-      margin: 2em 0;
+      margin: 1em 0;
       padding: 1em 2em 0;
       &:nth-of-type(3n + 1) {
         order: 0;
