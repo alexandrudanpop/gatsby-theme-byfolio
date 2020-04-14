@@ -94,11 +94,15 @@ const styles = {
   `,
   img: css`
     max-width: 100%;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
-    transform: translate3d(0, 0, 0);
+    box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.4);
     border-radius: 50%;
     position: relative;
     z-index: 1;
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.04);
+    }
   `,
   year: css`
     font-size: 0.85em;
