@@ -39,7 +39,7 @@ module.exports = {
           devTo: `alexandrudanpop`,
         },
         homePage: {
-          availableToHire: true,
+          availableToHire: false,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi! I'm Alex.`,
           h2Text: `I'm a Software Engineer who loves working with Javascript, React and NodeJs. I also enjoy programming C# with .NET Core. 
