@@ -42,7 +42,7 @@ module.exports = {
           availableToHire: false,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi! I'm Alex.`,
-          h2Text: `I'm a Software Engineer who loves working with Javascript, React and NodeJs. 👨‍💻 I'm also a big Typescript fan! 🚀`,
+          h2Text: `I'm a freelance Software Engineer who loves working with Javascript, React and NodeJs. 👨‍💻 I'm also a big Typescript fan! 🚀`,
           typewriter: [
             `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span> 💡`,
             `I'm a 🍕 & 🍺 lover`,
@@ -50,7 +50,7 @@ module.exports = {
             `During my free time, I enjoy working out 🏋 & listening to music 🎧`,
             `I get involved in knowing the business domain on projects I work on`,
             `Spending lots of my time staying up to date with various technologies, new & old 🤓.`,
-            `The best solutions are the simple solutions`,
+            `The best solutions are the simple ones ⭐`,
             `I like taking up new challenges ✅`,
           ],
         },
