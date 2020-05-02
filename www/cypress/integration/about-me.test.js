@@ -9,7 +9,7 @@ describe("About me page", () => {
   })
 
   it("should contains Abot me h2, and experience h2", () => {
-    cy.get("h2").contains("About Me!")
-    cy.get("h2").contains("Experience!")
+    cy.get("h2").contains("About Me")
+    cy.get("h2").contains("Experience")
   })
 })
