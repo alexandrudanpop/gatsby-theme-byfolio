@@ -8,7 +8,7 @@ module.exports = {
         path: `src/`,
         imagesPath: `src/images/`,
         siteTitle: `Alex's Portfolio`,
-        siteUrl: `https://alexandrudanpop.netlify.app`,
+        siteUrl: `https://alexandrudanpop.dev`,
         siteName: `Alexandru-Dan Pop`,
         siteShortName: `Alex`,
         siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
