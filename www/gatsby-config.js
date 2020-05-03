@@ -12,7 +12,7 @@ module.exports = {
         siteName: `Alexandru-Dan Pop`,
         siteShortName: `Alex`,
         siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
-        siteKeywords: `Software developer, Full Stack Developer, React Developer, Typescript developer, Javascript Developer, Software engineer, React.Js, .Net Core`,
+        siteKeywords: `Freelancer, Software developer, Full Stack Developer, React Developer, Typescript developer, Javascript Developer, Software engineer, React.Js, .Net Core`,
         useMozJpeg: true,
         typographyPath: "src/utils/typography.js",
         menuLinks: [
