@@ -42,7 +42,7 @@ module.exports = {
           availableToHire: false,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi! I'm Alex.`,
-          h2Text: `I'm a freelance Software Engineer who loves working with Javascript, React and NodeJs. 👨‍💻 I'm also a big Typescript fan! 🚀`,
+          h2Text: `I'm a freelance Software Engineer who loves working with Javascript, React and Node.js. 👨‍💻 I'm also a big Typescript fan! 🚀`,
           typewriter: [
             `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>`,
             `I'm a 🍕 & 🍺 lover`,
