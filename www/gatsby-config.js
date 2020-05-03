@@ -84,13 +84,13 @@ module.exports = {
         gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
-          send_page_view: true,
+          // send_page_view: true,
           cookie_name: `google-gtag`,
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
-          head: false,
+          head: true,
           // Setting this parameter is also optional
           respectDNT: false,
         },
