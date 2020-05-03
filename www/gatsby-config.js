@@ -44,7 +44,7 @@ module.exports = {
           h1Text: `Hi! I'm Alex.`,
           h2Text: `I'm a freelance Software Engineer who loves working with Javascript, React and NodeJs. 👨‍💻 I'm also a big Typescript fan! 🚀`,
           typewriter: [
-            `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span> 💡`,
+            `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>`,
             `I'm a 🍕 & 🍺 lover`,
             "I work as a <span style='color: #4a89ff;'>freelancer</span> / <span style='color: #4a89ff;'>consultant</span>",
             `During my free time, I enjoy working out 🏋 & listening to music 🎧`,
