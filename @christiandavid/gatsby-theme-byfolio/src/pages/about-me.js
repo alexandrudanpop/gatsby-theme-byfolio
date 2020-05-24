@@ -26,10 +26,15 @@ export default () => {
               ))}
               <h2 css={styles.hTag}> Blog </h2>
               <p>
-                I am writing on Dev.to check it out{" "}
-                <a href="https://dev.to/alexandrudanpop" target="_blank">
-                  here.
+                Check out my blog posts{" "}
+                <a href="https://blog.alexandrudanpop.dev/" target="_blank">
+                  here
+                </a>{" "}
+                or on{" "}
+                <a href="https://dev.to/alexandrudanpop/" target="_blank">
+                  Dev.to
                 </a>
+                .
               </p>
             </>
           </div>

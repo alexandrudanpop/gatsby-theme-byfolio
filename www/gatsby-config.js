@@ -27,6 +27,12 @@ module.exports = {
           },
           { name: `skills`, title: `Skills`, color: `#9d316e`, link: `` },
           { name: `aboutMe`, title: `About Me`, color: `#f3ffff`, link: `` },
+          {
+            name: `blog`,
+            title: `Blog`,
+            color: `#f3ffff`,
+            link: `https://blog.alexandrudanpop.dev`,
+          },
         ],
         email: `alexandrudanpop@gmail.com`,
         social: {

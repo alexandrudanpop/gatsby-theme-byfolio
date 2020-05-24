@@ -156,6 +156,17 @@ const Menu = ({
   }
 
   function menuGenerator({ title, color, url }) {
+    if (url.includes("http")) {
+      return (
+        <a
+          className={`global-menu-item${isMenuOpen ? " is-opened" : ""}`}
+          href={url}
+        >
+          {title}
+        </a>
+      )
+    }
+
     return (
       <AniLink
         paintDrip
