@@ -103,7 +103,7 @@ const styles = {
         transition-delay: 0.6s;
       }
       &.is-opened:nth-of-type(5) {
-        transition-delay: 0.9s;
+        transition-delay: 0.65s;
       }
       &.is-opened:nth-of-type(6) {
         transition-delay: 0.95s;
