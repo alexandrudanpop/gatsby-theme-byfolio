@@ -1,5 +1,6 @@
 [![CircleCI](https://circleci.com/gh/alexandrudanpop/gatsby-theme-byfolio.svg?style=svg)](https://app.circleci.com/pipelines/github/alexandrudanpop/gatsby-theme-byfolio)
 ![Twitter Follow](https://img.shields.io/twitter/follow/alexandrudanpop?style=social)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a8171d11-d1a8-494c-89fc-862190d38c60/deploy-status)](https://app.netlify.com/sites/alexandrudanpop/deploys)
 
 ## My portofolio website 🌟
 

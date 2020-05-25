@@ -30,14 +30,14 @@ describe("Home page", () => {
       .should("not.have.class", "is-opened-navi")
   })
 
-  it("search for 4 links, and close it", () => {
+  it("search for 5 links, and close it", () => {
     cy.get(".hamburger").click()
     cy.wait(1000)
     // Count Links
     cy.get("[data-test=menulinks]")
       .find("a.is-opened")
       .should($a => {
-        expect($a, "4 items").to.have.length(4)
+        expect($a, "5 items").to.have.length(5)
         expect($a.eq(0), "first item").to.contain("Home")
         expect($a.eq(1), "second item").to.contain("Experience")
         expect($a.eq(2), "thrid item").to.contain("Skills")
