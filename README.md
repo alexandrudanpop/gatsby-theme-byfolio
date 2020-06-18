@@ -12,6 +12,3 @@ Build using [Gatsby](https://www.gatsbyjs.org/) & [gatsby-theme-byfolio](https:/
 
 Credits got to [Christian David](https://github.com/christiandavid) for building this nice plugin and obviously to the the [Gatsby team](https://www.gatsbyjs.com/about/).
 
-### Color scheme
-
-https://coolors.co/173493-95a2cd-bfd7ea-f3ffff-080c1c
