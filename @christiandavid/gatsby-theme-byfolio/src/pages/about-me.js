@@ -26,7 +26,9 @@ export default () => {
               ))}
               <h2 css={styles.hTag}> Blog </h2>
               <p>
-                Check out my blog posts{" "}
+                If you are interested in software development practices, React,
+                Javascript, programming trends you might like my blog! Check it
+                out{" "}
                 <a href="https://blog.alexandrudanpop.dev/" target="_blank">
                   here
                 </a>{" "}
