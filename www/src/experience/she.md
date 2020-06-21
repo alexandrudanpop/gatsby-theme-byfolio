@@ -37,7 +37,7 @@ images:
     },
     {
       title: "Frontend responsible",
-      description: "Design and architecture of the React-Redux-Typescript enterprise application",
+      description: "Design and architecture of a React-Redux-Typescript enterprise application",
       layout: "4",
       files:
         [
@@ -54,6 +54,7 @@ dateTo: "2020-05-01"
 ---
 
 - Created an enterprise React Redux application with multi-language, authorization & authentication, workflow diagrams, charts, data visualizations, administration & configuration
+- Dynamic data model configuration - custom entities structure
 - API design
 - Been part of the technical leadership of the project with impact on major decisions
 - E2E testing setup
