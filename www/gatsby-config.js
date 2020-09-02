@@ -41,7 +41,7 @@ module.exports = {
           gitHub: `alexandrudanpop`,
           stackOverflow: `5239664/alexandru-dan-pop`,
           linkedIn: `in/alexandrudanpop/`,
-          resumeInPdf: `/CV-Alexandru-DanPop.pdf`,
+          resumeInPdf: `/Resume-Alexandru-Dan-Pop.pdf`,
           devTo: `alexandrudanpop`,
         },
         homePage: {
