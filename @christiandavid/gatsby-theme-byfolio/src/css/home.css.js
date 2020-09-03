@@ -33,7 +33,7 @@ const styles = {
     text-align: center;
   `,
   image: css`
-    border-radius: 50%;
+    border-radius: 80% 75% 90% 60% / 80% 70% 90% 60%;
   `,
   craft: css`
     width: 350px;
@@ -42,7 +42,7 @@ const styles = {
     left: 0;
     right: 0;
     font-size: 17px;
-    color: #ccbe7e;
+    color: #bfd7ea;
   `,
   dataTopbar: css`
     position: fixed;
