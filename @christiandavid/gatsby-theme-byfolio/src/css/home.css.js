@@ -10,16 +10,39 @@ const styles = {
   `,
   dataContainer: css`
     margin: 0 auto;
-    padding: 0 3rem;
+    /* padding: 0 3rem; */
     max-width: 700px;
     height: 100%;
   `,
   dataContent: css`
     position: relative;
-    top: 200px;
+    top: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* todo - remove if not needed */
     .Typewriter {
       font-size: 1.5em;
     }
+  `,
+  dataContentItem: css`
+    flex-basis: 350px;
+    flex-grow: 1;
+    text-align: center;
+  `,
+  image: css`
+    border-radius: 50%;
+  `,
+  craft: css`
+    width: 350px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    font-size: 17px;
+    color: #ccbe7e;
   `,
   dataTopbar: css`
     position: fixed;

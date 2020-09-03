@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react"
 import PropTypes from "prop-types"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 import { Helmet } from "react-helmet"
 import Typewriter from "typewriter-effect"
 import GraphemeSplitter from "grapheme-splitter"
@@ -11,6 +12,7 @@ import styles from "../css/home.css"
 
 const Home = ({
   data: {
+    file,
     site: {
       siteMetadata: {
         siteName,
@@ -64,9 +66,19 @@ const Home = ({
                 <p>Available to be hired</p>
               </div>
             )}
-            <h1>{h1Text}</h1>
-            <h2>{h2Text}</h2>
-            <Typewriter
+            <div css={styles.dataContentItem}>
+              <Img
+                css={styles.image}
+                fixed={file.childImageSharp.fixed}
+                alt="Alex's profile image"
+              ></Img>
+              <p css={styles.craft}>Remote Software Engineer</p>
+            </div>
+            <div css={styles.dataContentItem}>
+              <h1>{h1Text}</h1>
+              <p>{h2Text}</p>
+            </div>
+            {/* <Typewriter
               css={styles.typewriter}
               options={{
                 strings: typewriter,
@@ -75,7 +87,7 @@ const Home = ({
                 delay: 55,
                 stringSplitter,
               }}
-            />
+            /> */}
           </div>
         </div>
       </section>
@@ -112,6 +124,13 @@ export const query = graphql`
           h1Text
           h2Text
           typewriter
+        }
+      }
+    }
+    file(name: { eq: "me" }) {
+      childImageSharp {
+        fixed(width: 200) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

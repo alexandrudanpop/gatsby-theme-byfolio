@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Img from "gatsby-image"
 import Delay from "../delay"
-import isSSR from "../../utils/isSSR"
 import styles from "./experience.css"
 
 const textLimit = 15
@@ -13,7 +12,6 @@ const Experience = ({
   title,
   description,
   showLoadingAnimation = true,
-  transitionStatus = "entered",
 }) => {
   const gridRef = useRef(null)
   const jobItems = useRef(jobs.map(createRef))

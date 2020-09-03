@@ -159,6 +159,7 @@ const Menu = ({
     if (url.includes("http")) {
       return (
         <a
+          key={title}
           className={`global-menu-item${isMenuOpen ? " is-opened" : ""}`}
           href={url}
         >
