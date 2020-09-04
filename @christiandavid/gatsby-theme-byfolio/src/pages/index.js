@@ -104,13 +104,16 @@ const Home = ({
                   >
                     Contact ➜
                   </Button>
-                  <Button tabindex={isContactOpen ? -1 : undefined}>
-                    {/* <Link to="/blog">blog</Link> */}
-                    Projects ⚙️
-                  </Button>
-                  <Button tabindex={isContactOpen ? -1 : undefined}>
-                    Blog ✍️
-                  </Button>
+                  <Link to="/experience" tabIndex="-1">
+                    <Button tabindex={isContactOpen ? -1 : undefined}>
+                      Projects ⚙️
+                    </Button>
+                  </Link>
+                  <a href="https://blog.alexandrudanpop.dev/" tabIndex="-1">
+                    <Button tabindex={isContactOpen ? -1 : undefined}>
+                      Blog ✍️
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
