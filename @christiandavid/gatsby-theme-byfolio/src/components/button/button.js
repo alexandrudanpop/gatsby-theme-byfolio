@@ -12,7 +12,6 @@ const styles = {
     --btn-color: black;
     --btn-bg: var(--primary-color);
     --btn-border-color: var(--btn-bg);
-    min-width: 100px;
 
     outline: 0;
     cursor: pointer;
@@ -23,7 +22,9 @@ const styles = {
     border: var(--btn-border-width) var(--btn-border-style)
       var(--btn-border-color);
     border-radius: var(--btn-radius);
+    font-size: 14px;
     margin: 0.1rem;
+    min-width: 100px;
 
     :hover {
       filter: brightness(90%);
@@ -31,10 +32,13 @@ const styles = {
 
     :focus {
       filter: brightness(90%);
+      border: 1px solid black;
     }
   `,
 }
 
-export const Button = ({ children }) => (
-  <button css={styles.button}>{children}</button>
+export const Button = ({ children, ...rest }) => (
+  <button css={styles.button} {...rest}>
+    {children}
+  </button>
 )

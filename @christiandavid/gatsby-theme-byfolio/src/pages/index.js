@@ -53,37 +53,39 @@ const Home = ({
   })
 
   return (
-    <LayoutContactMe bgClassName="home">
+    <>
       <Helmet>
         <title>{siteName}</title>
         <meta charset="UTF-8" />
       </Helmet>
-      <section css={styles.dataSection}>
-        <div css={styles.dataContainer}>
-          <div css={styles.dataContent}>
-            {availableToHire && (
-              <div css={styles.dataTopbar}>
-                <div css={dotCss} ref={dotAnimation}></div>
-                <p>Available to be hired</p>
-              </div>
-            )}
-            <div css={styles.dataContentItem}>
-              <figure>
-                <Img
-                  css={styles.image}
-                  fixed={file.childImageSharp.fixed}
-                  alt="Alex's profile image"
-                ></Img>
-                {/* todo - text from gatsby-config file */}
-                <figcaption css={styles.craft}>
-                  Remote Software Engineer
-                </figcaption>
-              </figure>
-            </div>
-            <div css={styles.dataContentItem}>
-              <h1>{h1Text}</h1>
-              <p>{h2Text}</p>
-              {/* <Typewriter
+      <LayoutContactMe bgClassName="home">
+        {isContactOpen => (
+          <section css={styles.dataSection}>
+            <div css={styles.dataContainer}>
+              <div css={styles.dataContent}>
+                {availableToHire && (
+                  <div css={styles.dataTopbar}>
+                    <div css={dotCss} ref={dotAnimation}></div>
+                    <p>Available to be hired</p>
+                  </div>
+                )}
+                <div css={styles.dataContentItem}>
+                  <figure>
+                    <Img
+                      css={styles.image}
+                      fixed={file.childImageSharp.fixed}
+                      alt="Alex's profile image"
+                    ></Img>
+                    {/* todo - text from gatsby-config file */}
+                    <figcaption css={styles.craft}>
+                      Remote Software Engineer
+                    </figcaption>
+                  </figure>
+                </div>
+                <div css={styles.dataContentItem}>
+                  <h1>{h1Text}</h1>
+                  <p>{h2Text}</p>
+                  {/* <Typewriter
                 css={styles.typewriter}
                 options={{
                   strings: typewriter,
@@ -94,15 +96,23 @@ const Home = ({
                 }}
               /> */}
 
-              {/* todo - button component */}
-              <Button>Contact ➜</Button>
-              <Button>Projects ⚙️</Button>
-              <Button>Blog ✍️</Button>
+                  {/* todo - button component */}
+                  <Button tabindex={isContactOpen ? -1 : undefined}>
+                    Contact ➜
+                  </Button>
+                  <Button tabindex={isContactOpen ? -1 : undefined}>
+                    Projects ⚙️
+                  </Button>
+                  <Button tabindex={isContactOpen ? -1 : undefined}>
+                    Blog ✍️
+                  </Button>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
-    </LayoutContactMe>
+          </section>
+        )}
+      </LayoutContactMe>
+    </>
   )
 }
 

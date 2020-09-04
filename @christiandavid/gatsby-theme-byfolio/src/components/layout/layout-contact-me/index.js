@@ -121,6 +121,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
             title="Close contact me"
             data-test="contactmeClose"
             onClick={closeContact}
+            tabIndex={isContactOpen ? undefined : -1}
           >
             <svg className="icon">
               <use xlinkHref="#icon-cross" />
@@ -159,6 +160,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
                       css={styles.whiteLink}
                       rel="noopener noreferrer"
                       title={title}
+                      tabIndex={isContactOpen ? i + 1 : -1}
                     >
                       <svg className="icon">
                         <use xlinkHref={`#icon-${ico}`}></use>
@@ -169,13 +171,15 @@ const LayoutContactMe = ({ children, bgClassName }) => {
               </p>
               <p>
                 Or drop me an email at{" "}
-                <Obfuscate
-                  email={email}
-                  headers={{
-                    subject: "Come join us!",
-                    body: "We want you in our team, we have pizza friday",
-                  }}
-                />
+                {isContactOpen && (
+                  <Obfuscate
+                    email={email}
+                    headers={{
+                      subject: "Come join us!",
+                      body: "We want you in our team, we have pizza friday",
+                    }}
+                  />
+                )}
               </p>
             </div>
           </div>
@@ -265,7 +269,9 @@ const LayoutContactMe = ({ children, bgClassName }) => {
                       />
                       {contactButton()}
                     </div>
-                    <div css={styles.pageContainer}>{children}</div>
+                    <div css={styles.pageContainer}>
+                      {children(isContactOpen)}
+                    </div>
                   </div>
                 </div>
               </div>

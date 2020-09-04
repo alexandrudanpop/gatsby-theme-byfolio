@@ -157,6 +157,10 @@ const styles = {
       top: 2.15em;
       right: 2em;
     }
+
+    button:focus {
+      border: 1px solid grey;
+    }
   `,
   btn: css`
     margin: 0;

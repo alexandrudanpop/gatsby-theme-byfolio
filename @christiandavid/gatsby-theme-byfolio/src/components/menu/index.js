@@ -162,6 +162,7 @@ const Menu = ({
           key={title}
           className={`global-menu-item${isMenuOpen ? " is-opened" : ""}`}
           href={url}
+          tabIndex={isMenuOpen ? undefined : -1}
         >
           {title}
         </a>
@@ -175,6 +176,7 @@ const Menu = ({
         to={url}
         hex={color}
         className={`global-menu-item${isMenuOpen ? " is-opened" : ""}`}
+        tabIndex={isMenuOpen ? undefined : -1}
       >
         {title}
       </AniLink>
@@ -271,6 +273,7 @@ const Menu = ({
           ref={elmHamburger}
           data-test="menu"
           onClick={elmHamburgerClick}
+          tabIndex={-1}
         >
           <div className="hamburger-line hamburger-line-1">
             <div className="hamburgercolr hamburger-line-in hamburger-line-in-1"></div>
