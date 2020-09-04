@@ -270,7 +270,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
                       {contactButton()}
                     </div>
                     <div css={styles.pageContainer}>
-                      {children(isContactOpen)}
+                      {children(isContactOpen, setIsContactOpen)}
                     </div>
                   </div>
                 </div>

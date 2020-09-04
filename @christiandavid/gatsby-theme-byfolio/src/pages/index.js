@@ -10,6 +10,7 @@ import { css } from "@emotion/core"
 import LayoutContactMe from "../components/layout/layout-contact-me"
 import styles from "../css/home.css"
 import { Button } from "../components/button/button"
+import { Link } from "gatsby"
 
 const Home = ({
   data: {
@@ -59,7 +60,7 @@ const Home = ({
         <meta charset="UTF-8" />
       </Helmet>
       <LayoutContactMe bgClassName="home">
-        {isContactOpen => (
+        {(isContactOpen, setIsContactOpen) => (
           <section css={styles.dataSection}>
             <div css={styles.dataContainer}>
               <div css={styles.dataContent}>
@@ -97,10 +98,14 @@ const Home = ({
               /> */}
 
                   {/* todo - button component */}
-                  <Button tabindex={isContactOpen ? -1 : undefined}>
+                  <Button
+                    tabindex={isContactOpen ? -1 : undefined}
+                    onClick={setIsContactOpen}
+                  >
                     Contact ➜
                   </Button>
                   <Button tabindex={isContactOpen ? -1 : undefined}>
+                    {/* <Link to="/blog">blog</Link> */}
                     Projects ⚙️
                   </Button>
                   <Button tabindex={isContactOpen ? -1 : undefined}>

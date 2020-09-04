@@ -6,18 +6,22 @@ import Experience from "../components/experience"
 
 export default ({ data, transitionStatus }) => {
   return (
-    <LayoutContactMe bgClassName="experience">
+    <>
       <Helmet>
         <title>Work Experience</title>
       </Helmet>
-      <Experience
-        jobs={data.allMarkdownRemark.edges}
-        transitionStatus={transitionStatus}
-        title="Work Experience"
-        description="Here you can find information about my work experience, these are some
+      <LayoutContactMe bgClassName="experience">
+        {() => (
+          <Experience
+            jobs={data.allMarkdownRemark.edges}
+            transitionStatus={transitionStatus}
+            title="Work Experience"
+            description="Here you can find information about my work experience, these are some
       companies with which I have had the privilege of working"
-      />
-    </LayoutContactMe>
+          />
+        )}
+      </LayoutContactMe>
+    </>
   )
 }
 
