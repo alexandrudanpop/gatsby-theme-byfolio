@@ -24,23 +24,20 @@ const styles = {
 
     /* todo - remove if not needed */
     .Typewriter {
-      font-size: 1.5em;
+      font-size: 18px;
     }
   `,
   dataContentItem: css`
     flex-basis: 350px;
     flex-grow: 1;
     text-align: center;
+    padding: 10px;
   `,
   image: css`
-    border-radius: 80% 75% 90% 60% / 80% 70% 90% 60%;
+    /* border-radius: 80% 75% 90% 60% / 80% 70% 90% 60%; */
+    border-radius: 132px 131px 73px 73px;
   `,
   craft: css`
-    width: 350px;
-    position: absolute;
-    top: 200px;
-    left: 0;
-    right: 0;
     font-size: 17px;
     color: #bfd7ea;
   `,

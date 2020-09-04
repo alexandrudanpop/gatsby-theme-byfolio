@@ -9,6 +9,7 @@ import anime from "animejs"
 import { css } from "@emotion/core"
 import LayoutContactMe from "../components/layout/layout-contact-me"
 import styles from "../css/home.css"
+import { Button } from "../components/button/button"
 
 const Home = ({
   data: {
@@ -67,27 +68,37 @@ const Home = ({
               </div>
             )}
             <div css={styles.dataContentItem}>
-              <Img
-                css={styles.image}
-                fixed={file.childImageSharp.fixed}
-                alt="Alex's profile image"
-              ></Img>
-              <p css={styles.craft}>Remote Software Engineer</p>
+              <figure>
+                <Img
+                  css={styles.image}
+                  fixed={file.childImageSharp.fixed}
+                  alt="Alex's profile image"
+                ></Img>
+                {/* todo - text from gatsby-config file */}
+                <figcaption css={styles.craft}>
+                  Remote Software Engineer
+                </figcaption>
+              </figure>
             </div>
             <div css={styles.dataContentItem}>
               <h1>{h1Text}</h1>
               <p>{h2Text}</p>
+              {/* <Typewriter
+                css={styles.typewriter}
+                options={{
+                  strings: typewriter,
+                  autoStart: true,
+                  loop: true,
+                  delay: 55,
+                  stringSplitter,
+                }}
+              /> */}
+
+              {/* todo - button component */}
+              <Button>Contact ➜</Button>
+              <Button>Projects ⚙️</Button>
+              <Button>Blog ✍️</Button>
             </div>
-            {/* <Typewriter
-              css={styles.typewriter}
-              options={{
-                strings: typewriter,
-                autoStart: true,
-                loop: true,
-                delay: 55,
-                stringSplitter,
-              }}
-            /> */}
           </div>
         </div>
       </section>
