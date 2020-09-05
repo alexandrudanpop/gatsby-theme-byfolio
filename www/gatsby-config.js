@@ -9,10 +9,10 @@ module.exports = {
         imagesPath: `src/images/`,
         siteTitle: `Alex's Portfolio`,
         siteUrl: `https://alexandrudanpop.dev`,
-        siteName: `Alexandru-Dan Pop`,
+        siteName: `Alexandru-Dan Pop - React developer`,
         siteShortName: `Alex`,
         siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
-        siteKeywords: `Freelancer, Software developer, Full Stack Developer, React Developer, Typescript developer, Javascript Developer, Software engineer, React.Js, .Net Core`,
+        siteKeywords: `React Developer, Typescript developer, Software developer, Full Stack Developer, Javascript Developer, Software engineer, React.Js, .Net Core`,
         useMozJpeg: true,
         typographyPath: "src/utils/typography.js",
         menuLinks: [
@@ -47,7 +47,7 @@ module.exports = {
         homePage: {
           availableToHire: false,
           dotColors: ["#0e3e1e", "#6CC551"],
-          h1Text: `Hi! I'm Alex.`,
+          h1Text: `Are you looking for a React.js developer?`,
           h2Text: `I'm a freelance Software Engineer who loves working with Javascript, React and Node.js. 👨‍💻 I'm also a big Typescript fan! 🚀`,
           typewriter: [
             `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>`,
