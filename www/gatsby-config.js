@@ -7,7 +7,7 @@ module.exports = {
         basePath: ``,
         path: `src/`,
         imagesPath: `src/images/`,
-        siteTitle: `Alex's Portfolio`,
+        siteTitle: `Alex | React developer`,
         siteUrl: `https://alexandrudanpop.dev`,
         siteName: `Alexandru-Dan Pop - React developer`,
         siteShortName: `Alex`,
