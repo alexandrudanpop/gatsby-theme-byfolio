@@ -1,15 +1,17 @@
 import { css } from "@emotion/core"
 import mediaQueryGenerator from "../utils/mediaQGen"
 
-const [media52Dot5em, media36em] = mediaQueryGenerator([
-  { type: "min", size: "52.5" },
-  { type: "max", size: "36" },
+const [mediaMin62em, mediaMax40em, mediaMax51Em] = mediaQueryGenerator([
+  { type: "min", size: "62.5" },
+  { type: "max", size: "46" },
+  { type: "max", size: "50.75" },
 ])
 
 const styles = {
   h1: css`
-    ${media36em} {
+    ${mediaMax51Em} {
       font-size: 24px;
+      margin-bottom: 17px;
     }
   `,
   blackColor: css`
@@ -22,20 +24,21 @@ const styles = {
   dataContainer: css`
     margin: 0 auto;
     height: 100%;
+    min-height: 600px;
 
-    ${media52Dot5em} {
-      width: 1050px;
+    ${mediaMin62em} {
+      width: 980px;
     }
   `,
   dataContent: css`
     position: relative;
-    top: 14vh;
+    top: 12vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 
-    ${media52Dot5em} {
+    ${mediaMin62em} {
       top: 20vh;
     }
 
@@ -50,7 +53,7 @@ const styles = {
     text-align: center;
     padding: 10px 0px 10px 0px;
 
-    ${media36em} {
+    ${mediaMax40em} {
       padding-top: 0px;
       padding-bottom: 0px;
     }
@@ -60,7 +63,11 @@ const styles = {
     border-radius: 132px 131px 73px 73px;
 
     /* todo fix with gatsby graphql */
-    ${media36em} {
+    ${mediaMax51Em} {
+      width: 200px !important;
+      height: 200px !important;
+    }
+    ${mediaMax40em} {
       width: 130px !important;
       height: 130px !important;
     }
@@ -76,9 +83,15 @@ const styles = {
     margin-left: 0;
     letter-spacing: 0.03rem;
 
-    ${media36em} {
+    ${mediaMax40em} {
       font-size: 15px;
-      line-height: 15px;
+      line-height: 17px;
+      margin-bottom: 15px;
+    }
+
+    ${mediaMax51Em} {
+      font-size: 15px;
+      line-height: 17px;
       margin-bottom: 15px;
     }
   `,

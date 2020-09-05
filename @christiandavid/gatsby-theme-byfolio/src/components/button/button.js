@@ -2,7 +2,7 @@ import React from "react"
 import { css } from "@emotion/core"
 import mediaQueryGenerator from "../../utils/mediaQGen"
 
-const [media36em] = mediaQueryGenerator([{ type: "max", size: "36" }])
+const [mediaMax51Em] = mediaQueryGenerator([{ type: "max", size: "50.75" }])
 
 const styles = {
   button: css`
@@ -38,7 +38,7 @@ const styles = {
       border: 1px solid black;
     }
 
-    ${media36em} {
+    ${mediaMax51Em} {
       padding: 4px 7px 4px 7px;
       min-width: 50px;
     }
