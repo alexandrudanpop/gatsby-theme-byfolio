@@ -284,7 +284,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
 }
 
 LayoutContactMe.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.func.isRequired,
   bgClassName: PropTypes.string,
 }
 

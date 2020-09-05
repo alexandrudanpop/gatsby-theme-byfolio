@@ -79,13 +79,33 @@ const Home = ({
                     ></Img>
                     {/* todo - text from gatsby-config file */}
                     <figcaption css={styles.craft}>
-                      Remote Software Engineer
+                      Alexandru-Dan Pop
+                    </figcaption>
+                    <figcaption css={styles.craft}>
+                      Software Engineer
                     </figcaption>
                   </figure>
                 </div>
                 <div css={styles.dataContentItem}>
-                  <h1>{h1Text}</h1>
-                  <p>{h2Text}</p>
+                  <h1 css={styles.h1}>{h1Text}</h1>
+                  {/* <p css={styles.description}>{h2Text}</p> */}
+                  <ul css={styles.description}>
+                    <li>
+                      ✔️Senior Software Engineer, with over 6 years of
+                      experience.
+                    </li>
+                    <li>
+                      ✔️ Reliable React developer, with knowledge of latest
+                      trends in the industry and frameworks such as Gatsby &
+                      Next.js.
+                    </li>
+                    <li>
+                      ✔️ Capable of working on enterprise-scale React projects.
+                    </li>
+                    <li>
+                      ✔️ Familiar with React frameworks likes Gatsby & Next.js.
+                    </li>
+                  </ul>
                   {/* <Typewriter
                 css={styles.typewriter}
                 options={{
@@ -99,18 +119,18 @@ const Home = ({
 
                   {/* todo - button component */}
                   <Button
-                    tabindex={isContactOpen ? -1 : undefined}
+                    tabIndex={isContactOpen ? -1 : undefined}
                     onClick={setIsContactOpen}
                   >
-                    Contact ➜
+                    <b>Contact ➜</b>
                   </Button>
                   <Link to="/experience" tabIndex="-1">
-                    <Button tabindex={isContactOpen ? -1 : undefined}>
-                      Projects ⚙️
+                    <Button tabIndex={isContactOpen ? -1 : undefined}>
+                      Experience ⚙️
                     </Button>
                   </Link>
                   <a href="https://blog.alexandrudanpop.dev/" tabIndex="-1">
-                    <Button tabindex={isContactOpen ? -1 : undefined}>
+                    <Button tabIndex={isContactOpen ? -1 : undefined}>
                       Blog ✍️
                     </Button>
                   </a>
@@ -158,7 +178,7 @@ export const query = graphql`
     }
     file(name: { eq: "me" }) {
       childImageSharp {
-        fixed(width: 200) {
+        fixed(width: 250) {
           ...GatsbyImageSharpFixed
         }
       }

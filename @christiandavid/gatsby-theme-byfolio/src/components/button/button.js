@@ -1,5 +1,8 @@
 import React from "react"
 import { css } from "@emotion/core"
+import mediaQueryGenerator from "../../utils/mediaQGen"
+
+const [media36em] = mediaQueryGenerator([{ type: "max", size: "36" }])
 
 const styles = {
   button: css`
@@ -33,6 +36,11 @@ const styles = {
     :focus {
       filter: brightness(90%);
       border: 1px solid black;
+    }
+
+    ${media36em} {
+      padding: 4px 7px 4px 7px;
+      min-width: 50px;
     }
   `,
 }
