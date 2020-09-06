@@ -64,15 +64,15 @@ module.exports = {
         shapeColor: {
           link: { color: "#080C1C", hover: "#2a3669" },
           shape1: {
-            color: `#BFD7EA`,
+            color: `#f3ffff`,
             opacity: `0.7`,
           },
           shape2: {
-            color: `#BFD7EA`,
+            color: `#f3ffff`,
             opacity: `0.7`,
           },
           shape3: {
-            color: `#BFD7EA`,
+            color: `#f3ffff`,
             opacity: `0.7`,
           },
         },

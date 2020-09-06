@@ -91,19 +91,19 @@ const Home = ({
                   {/* <p css={styles.description}>{h2Text}</p> */}
                   <ul css={styles.description}>
                     <li>
-                      ✔️Senior Software Engineer, with over 6 years of
+                      ✔️ Senior Software Engineer, with over 6 years of
                       experience.
                     </li>
                     <li>
-                      ✔️ Reliable React developer, with knowledge of latest
-                      trends in the industry and frameworks such as Gatsby &
-                      Next.js.
-                    </li>
-                    <li>
-                      ✔️ Capable of working on enterprise-scale React projects.
-                    </li>
-                    <li>
                       ✔️ Familiar with React frameworks likes Gatsby & Next.js.
+                    </li>
+                    <li>
+                      ✔️ Reliable software engineer, with knowledge of the
+                      latest best practices in the industry.
+                    </li>
+                    <li>
+                      ✔️ Capable of working on enterprise-scale projects.
+                      Full-stack capable.
                     </li>
                   </ul>
                   {/* <Typewriter
