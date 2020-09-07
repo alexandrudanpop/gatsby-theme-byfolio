@@ -82,7 +82,7 @@ const Home = ({
                       Alexandru-Dan Pop
                     </figcaption>
                     <figcaption css={styles.craft}>
-                      Software Engineer
+                      Frontend React Engineer
                     </figcaption>
                   </figure>
                 </div>
@@ -101,10 +101,7 @@ const Home = ({
                       ✔️ Reliable software engineer, with knowledge of the
                       latest best practices in the industry.
                     </li>
-                    <li>
-                      ✔️ Capable of working on enterprise-scale projects.
-                      Full-stack capable.
-                    </li>
+                    <li>✔️ Capable of working on enterprise-scale projects.</li>
                   </ul>
                   {/* <Typewriter
                 css={styles.typewriter}
