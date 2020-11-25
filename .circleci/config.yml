@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: update-apt
+          command: "sudo apt-get update"
+      - run:
           name: update-yarn
           command: "sudo curl --compressed -o- -L https://yarnpkg.com/install.sh | bash"
       - run:
