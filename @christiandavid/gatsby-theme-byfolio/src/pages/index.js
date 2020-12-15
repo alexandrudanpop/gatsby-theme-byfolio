@@ -77,19 +77,18 @@ const Home = ({
                       fixed={file.childImageSharp.fixed}
                       alt="Alex's profile image"
                     ></Img>
-                    {/* todo - text from gatsby-config file */}
                     <figcaption css={styles.craft}>
                       Alexandru-Dan Pop
                     </figcaption>
                     <figcaption css={styles.craft}>
-                      Frontend React Engineer
+                      Frontend Software Engineer
                     </figcaption>
                   </figure>
                 </div>
                 <div css={styles.dataContentItem}>
                   <h1 css={styles.h1}>{h1Text}</h1>
-                  {/* <p css={styles.description}>{h2Text}</p> */}
-                  <ul css={styles.description}>
+                  <p css={styles.description}>{h2Text}</p>
+                  {/* <ul css={styles.description}>
                     <li>
                       ✔️ Senior Software Engineer, with over 6 years of
                       experience.
@@ -102,17 +101,17 @@ const Home = ({
                       latest best practices in the industry.
                     </li>
                     <li>✔️ Capable of working on enterprise-scale projects.</li>
-                  </ul>
+                  </ul> */}
                   {/* <Typewriter
-                css={styles.typewriter}
-                options={{
-                  strings: typewriter,
-                  autoStart: true,
-                  loop: true,
-                  delay: 55,
-                  stringSplitter,
-                }}
-              /> */}
+                    css={styles.typewriter}
+                    options={{
+                      strings: typewriter,
+                      autoStart: true,
+                      loop: true,
+                      delay: 55,
+                      stringSplitter,
+                    }}
+                  /> */}
 
                   {/* todo - button component */}
                   <Button

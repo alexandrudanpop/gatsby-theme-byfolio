@@ -27,7 +27,7 @@ const styles = {
     min-height: 600px;
 
     ${mediaMin62em} {
-      width: 980px;
+      width: 1050px;
     }
   `,
   dataContent: css`
@@ -75,13 +75,14 @@ const styles = {
   craft: css`
     font-size: 17px;
     color: #bfd7ea;
+    letter-spacing: normal;
   `,
   description: css`
     font-size: 17px;
     list-style: none;
     text-align: left;
     margin-left: 0;
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.04rem;
 
     ${mediaMax40em} {
       font-size: 15px;
