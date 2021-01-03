@@ -12,7 +12,7 @@ module.exports = {
         siteName: `Alexandru-Dan Pop - React developer`,
         siteShortName: `Alex`,
         siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
-        siteKeywords: `React Developer, Typescript developer, Software developer, Full Stack Developer, Javascript Developer, Software engineer, React.Js, .Net Core`,
+        siteKeywords: `Frontend developer, React Developer, Typescript developer, Software developer, Full Stack Developer, Javascript Developer, Software engineer, React.Js, .Net Core`,
         useMozJpeg: true,
         typographyPath: "src/utils/typography.js",
         menuLinks: [
@@ -48,7 +48,7 @@ module.exports = {
           availableToHire: false,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi, I'm Alex!`,
-          h2Text: `I'm a Software Engineer who loves working with Javascript, React and Node.js. 👨‍💻 I'm also a big Typescript fan! 🚀`,
+          h2Text: `I help companies build cutting edge web applications. If you want to create your next SASS or enterprise product, you are in the right place!`,
           typewriter: [
             `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>`,
             `I'm a 🍕 & 🍺 lover`,

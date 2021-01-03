@@ -32,7 +32,7 @@ const styles = {
   `,
   dataContent: css`
     position: relative;
-    top: 12vh;
+    top: 16vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,19 +81,19 @@ const styles = {
     font-size: 17px;
     list-style: none;
     text-align: left;
-    margin-left: 0;
-    letter-spacing: 0.04rem;
+    margin: 1rem 0.5rem 1rem 1rem;
+    line-height: 28px;
+    letter-spacing: 0.05rem;
 
     ${mediaMax40em} {
-      font-size: 15px;
-      line-height: 17px;
-      margin-bottom: 15px;
+      font-size: 16px;
+      margin-bottom: 2.5rem;
+      margin-top: 1.5rem;
     }
 
-    ${mediaMax51Em} {
-      font-size: 15px;
-      line-height: 17px;
-      margin-bottom: 15px;
+    ${mediaMin62em} {
+      max-width: 460px;
+      font-size: 18px;
     }
   `,
   dataTopbar: css`
