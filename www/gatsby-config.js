@@ -48,7 +48,7 @@ module.exports = {
           availableToHire: false,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi, I'm Alex!`,
-          h2Text: `I help companies build cutting edge web applications. If you want to create your next SASS or enterprise product, you are in the right place!`,
+          h2Text: `I help companies build cutting edge web applications. If you want to create your next SaaS or enterprise product, you are in the right place!`,
           typewriter: [
             `I love <span style='color: #4a89ff;'>quality code</span> and <span style='color: #4a89ff;'>software architecture</span>`,
             `I'm a 🍕 & 🍺 lover`,
