@@ -212,12 +212,9 @@ const LayoutContactMe = ({ children, bgClassName }) => {
                   siteKeywords
                   siteDescription
                   social {
-                    gitHub
                     twitter
-                    stackOverflow
                     linkedIn
                     resumeInPdf
-                    devTo
                   }
                 }
               }

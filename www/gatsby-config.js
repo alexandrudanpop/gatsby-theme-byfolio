@@ -38,11 +38,11 @@ module.exports = {
         social: {
           // Usernames
           twitter: `alexandrudanpop`,
-          gitHub: `alexandrudanpop`,
-          stackOverflow: `5239664/alexandru-dan-pop`,
+          // gitHub: `alexandrudanpop`,
+          // stackOverflow: `5239664/alexandru-dan-pop`,
           linkedIn: `in/alexandrudanpop/`,
           resumeInPdf: `/Resume-Alexandru-Dan-Pop.pdf`,
-          devTo: `alexandrudanpop`,
+          // devTo: `alexandrudanpop`,
         },
         homePage: {
           availableToHire: false,
