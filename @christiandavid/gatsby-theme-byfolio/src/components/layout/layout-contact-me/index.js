@@ -234,6 +234,9 @@ const LayoutContactMe = ({ children, bgClassName }) => {
             <>
               <Helmet
                 title={title}
+                link={[
+                  { rel: "canonical", href: "https://alexandrudanpop.dev/" },
+                ]}
                 meta={[
                   {
                     name: "description",
@@ -244,6 +247,43 @@ const LayoutContactMe = ({ children, bgClassName }) => {
                     content: siteKeywords,
                   },
                   { charSet: "utf-8" },
+                  {
+                    property: "og:description",
+                    content: siteDescription,
+                  },
+                  {
+                    property: "og:locale",
+                    content: "en_US",
+                  },
+                  {
+                    property: "og:type",
+                    content: "website",
+                  },
+                  {
+                    property: "og:title",
+                    content: title || siteTitle,
+                    "data-react-helmet": true,
+                  },
+                  {
+                    property: "og:url",
+                    content: "https://alexandrudanpop.dev/",
+                  },
+                  {
+                    property: "og:site_name",
+                    content: title || siteTitle,
+                  },
+                  {
+                    property: "twitter:title",
+                    content: title || siteTitle,
+                  },
+                  {
+                    property: "twitter:site",
+                    content: "@alexandrudanpop",
+                  },
+                  {
+                    property: "twitter:creator",
+                    content: "@alexandrudanpop",
+                  },
                 ]}
               >
                 <html lang="en" />

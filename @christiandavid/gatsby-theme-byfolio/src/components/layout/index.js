@@ -48,39 +48,40 @@ const Layout = ({
                 },
                 { charSet: "utf-8" },
                 {
-                  name: "og:description",
+                  property: "og:description",
                   content: siteDescription,
                 },
                 {
-                  name: "og:locale",
+                  property: "og:locale",
                   content: "en_US",
                 },
                 {
-                  name: "og:type",
+                  property: "og:type",
                   content: "website",
                 },
                 {
-                  name: "og:title",
+                  property: "og:title",
                   content: title || siteTitle,
+                  "data-react-helmet": true,
                 },
                 {
-                  name: "og:url",
+                  property: "og:url",
                   content: "https://alexandrudanpop.dev/",
                 },
                 {
-                  name: "og:site_name",
+                  property: "og:site_name",
                   content: title || siteTitle,
                 },
                 {
-                  name: "twitter:title",
+                  property: "twitter:title",
                   content: title || siteTitle,
                 },
                 {
-                  name: "twitter:site",
+                  property: "twitter:site",
                   content: "@alexandrudanpop",
                 },
                 {
-                  name: "twitter:creator",
+                  property: "twitter:creator",
                   content: "@alexandrudanpop",
                 },
               ]}
