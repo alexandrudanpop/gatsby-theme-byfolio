@@ -34,6 +34,9 @@ const Layout = ({
           <>
             <Helmet
               title={title || siteTitle}
+              link={[
+                { rel: "canonical", href: "https://alexandrudanpop.dev/" },
+              ]}
               meta={[
                 {
                   name: "description",
@@ -44,6 +47,42 @@ const Layout = ({
                   content: siteKeywords,
                 },
                 { charSet: "utf-8" },
+                {
+                  name: "og:description",
+                  content: siteDescription,
+                },
+                {
+                  name: "og:locale",
+                  content: "en_US",
+                },
+                {
+                  name: "og:type",
+                  content: "website",
+                },
+                {
+                  name: "og:title",
+                  content: title || siteTitle,
+                },
+                {
+                  name: "og:url",
+                  content: "https://alexandrudanpop.dev/",
+                },
+                {
+                  name: "og:site_name",
+                  content: title || siteTitle,
+                },
+                {
+                  name: "twitter:title",
+                  content: title || siteTitle,
+                },
+                {
+                  name: "twitter:site",
+                  content: "@alexandrudanpop",
+                },
+                {
+                  name: "twitter:creator",
+                  content: "@alexandrudanpop",
+                },
               ]}
             >
               <html lang="en" />

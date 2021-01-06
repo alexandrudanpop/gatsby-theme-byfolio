@@ -11,8 +11,8 @@ module.exports = {
         siteUrl: `https://alexandrudanpop.dev`,
         siteName: `Alexandru-Dan Pop - React developer`,
         siteShortName: `Alex`,
-        siteDescription: `This Application contains info about my work experience as a Software Engineer.`,
-        siteKeywords: `Frontend developer, React Developer, Typescript developer, Software developer, Full Stack Developer, Javascript Developer, Software engineer, React.Js, .Net Core`,
+        siteDescription: `Freelance frontend developer for hire, specializing in the development of custom web applications in Typescript, React.js, Next.js, Gatsby, .Net Core, & more.`,
+        siteKeywords: `Frontend developer, React Developer, Typescript developer, Software developer, React Gatsby freelancer, Full Stack Developer, Javascript Developer, Software engineer, React.Js freelancer`,
         useMozJpeg: true,
         typographyPath: "src/utils/typography.js",
         menuLinks: [
